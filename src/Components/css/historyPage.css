@@ -1,0 +1,17 @@
+/* App.css */
+/* Add a CSS class for fixed positioning and scrolling */
+.content-container {
+  display: flex;
+  height: 100vh; /* 100% viewport height */
+  overflow: hidden; /* Prevent body scrolling */
+}
+
+
+.content-area {
+  flex: 1; /* Take the remaining space */
+  overflow-y: auto; /* Enable scrolling for the content area */
+  padding: 20px; /* Add padding for content */
+}
+
+
+
