@@ -1,0 +1,57 @@
+{
+  "name": "arch-generation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.4",
+    "@coreui/coreui": "^4.3.0",
+    "@coreui/react": "^5.0.0-alpha.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.3",
+    "@mui/system": "^5.13.7",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.8.2",
+    "aws-sdk": "^2.1412.0",
+    "mermaid": "^10.2.4",
+    "openai": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-mermaid2": "^0.1.4",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "ajv": "^7.2.4"
+  }
+}
